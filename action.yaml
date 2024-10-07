@@ -1,0 +1,6 @@
+name: 'Porky'
+description: 'Why it do be like that'
+
+runs:
+  using: 'oven-sh/setup-bun@v2'
+  main: 'src/index.ts'

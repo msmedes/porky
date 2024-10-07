@@ -1,0 +1,18 @@
+{
+	"name": "porky",
+	"module": "index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "1.9.3",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@actions/core": "^1.11.1",
+		"@actions/github": "^6.0.0",
+		"@anthropic-ai/sdk": "^0.28.0",
+		"zod": "^3.23.8"
+	}
+}
