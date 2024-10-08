@@ -112,7 +112,6 @@ class Porky {
 
     Based on this information, please provide a concise explanation of why this pull request was created and what it aims to achieve.`;
 
-		console.log("userPrompt", userPrompt);
 		return await this.anthropic.messages.create({
 			model: "claude-3-5-sonnet-20240620",
 			system: systemPrompt,
