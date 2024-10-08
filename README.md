@@ -1,4 +1,4 @@
-# pork
+# porky
 
 To install dependencies:
 
@@ -16,7 +16,7 @@ This project was created using `bun init` in bun v1.1.29. [Bun](https://bun.sh) 
 
 
 ## Setup
-requires act `brew install act`
+requires act `brew install act` for testing I guess
 
 ```bash
 act -P [platform]=[token] -W [workflow_file]
